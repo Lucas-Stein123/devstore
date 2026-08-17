@@ -11,6 +11,7 @@ export function Header() {
         <Link href="/" className="text-2xl font-extrabold text-white">
           devstore
         </Link>
+
         <Suspense fallback={null}>
           <SearchForm />
         </Suspense>
